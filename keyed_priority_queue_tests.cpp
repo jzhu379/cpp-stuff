@@ -19,7 +19,7 @@ int main() {
     assert(kpq.top().second == 12);
 
     assert(kpq.containsKey("abc"));
-    kpq.removeKey("abc");
+    kpq.clear();
     assert(!kpq.containsKey("abc"));
 
     std::cout << "SUCCESS" << std::endl;
